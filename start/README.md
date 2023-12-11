@@ -47,9 +47,11 @@ can verified login'd by:
 argocd cluster list
 ```
 
+the cluster is running on address (aka internal k8s api endpoint) is `https://kubernetes.default.svc`
+
 also can see ArgoCD Web UI using admin/%argocd_password% at http:localhost:8080
 
-so now have ArgoCD cluster with no apps!
+so now can view a cluster with no apps!
 
 ## adding an app
 
